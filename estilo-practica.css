@@ -1,0 +1,58 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 5;
+    background: linear-gradient(0deg, #90d442 17%, #c4f5a6 98%);
+}
+
+.image-main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: justify;
+}
+
+section img {
+    border: 5px solid #19ba07;
+    border-radius: 4px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background-color: #cff28b;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #81d185;
+}
