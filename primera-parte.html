@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Cristobal Colon</title>
+</head>
+<body>
+    <div>
+        <img src="universidad.png" alt="Logotipo de la universidad Cristobal Colon">
+    </div>
+
+    <h1>Universidad Cristobal Colon</h1>
+    <h2>Evaluacion parcial</h2>
+    <h3>Luis Gonzalo Alvarez Montero</h3>
+
+    <h2>Lista</h2>
+    <ol reversed>
+        <li>Flow</li>
+        <li>La semilla de la higuera</li>
+        <li>Emilia Perez</li>
+        <li>La chica de la aguja</li>
+        <li>Aun estoy aqui</li>
+    </ol>
+    
+    <h2>Tabla</h2>
+    <table border="1">
+        
+        <thead>
+            <tr>
+                <th rowspan="2">Rango de edades</th>
+                <th colspan="2">Mujeres</th>
+                <th colspan="2">Hombres</th>
+                <th colspan="2">Promedio General</th>
+            </tr>
+            <tr>
+                <th>Estatura</th>
+                <th>Peso</th>
+                <th>Estatura</th>
+                <th>Peso</th>
+                <th>Estatura</th>
+                <th>Peso</th>
+            </tr>
+            
+
+        </thead>    
+
+        <tbody>
+            <tr>
+                <td>5-10</td>
+                <td>0.9</td>
+                <td>35</td>
+                <td>1.1</td>
+                <td>38</td>
+                <td>1.0</td>
+                <td>36.5</td>
+            </tr>
+            <tr>
+                <td>11-15</td>
+                <td>0.98</td>
+                <td>40</td>
+                <td>1.6</td>
+                <td>65</td>
+                <td>1.3</td>
+                <td>52.5</td>
+            </tr>
+            <tr>
+                <td>16-20</td>
+                <td>1.5</td>
+                <td>45</td>
+                <td>1.72</td>
+                <td>70</td>
+                <td>1.61</td>
+                <td>57.5</td>
+            </tr>
+            <tr>
+                <td>21-30</td>
+                <td>1.60</td>
+                <td>50</td>
+                <td>1.7</td>
+                <td>75</td>
+                <td>1.65</td>
+                <td>62.5</td>
+            </tr>
+            <tr>
+                <td>31-40</td>
+                <td>1.65</td>
+                <td>55</td>
+                <td>1.75</td>
+                <td>80</td>
+                <td>1.7</td>
+                <td>67.5</td>
+            </tr>
+            <tr>
+                <td>41-50</td>
+                <td>1.70</td>
+                <td>60</td>
+                <td>1.8</td>
+                <td>85</td>
+                <td>1.75</td>
+                <td>72.5</td>   
+            </tr>
+            <tr>
+                <td>51-60</td>
+                <td>1.75</td>
+                <td>65</td>
+                <td>1.85</td>
+                <td>90</td>
+                <td>1.8</td>
+                <td>77.5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulario</h2>
+    <form action="#" method="post">
+        
+        <p>
+        <label for="id_nombre">Nombre Completo:</label>
+        <input type="text" id="id_nombre" name="nombre" required>
+        </p>
+        
+        <p>
+            <label>Correo Electrónico</label>
+            <input type="email" id="correo" name="email" required>
+        </p>
+
+        <p>
+            <label for="número">Edad</label>
+            <input type="number" id="numero" name="numero" min="1" max="106">
+        </p>
+
+        <p>
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+
+        <p>
+            <label>Estado civil:</label>
+            <label>
+                <input type="radio" id="casado" name="Estado civil" value="casado">Casado
+            </label>
+            <label>
+                <input type="radio" id="soltero" name="Estado civil" value="soltero">Soltero
+            </label>
+        </p>
+
+        <p>
+            <label for="">Intereses:</label>
+                <input type="checkbox" id="musica" name="intereses" value="musica">
+                <label for="deportes">Musica</label>
+                <input type="checkbox" id="teatro" name="intereses" value="teatro">
+                <label for="artes">Teatro</label>
+                <input type="checkbox" id="lectura" name="intereses" value="lectura">
+                <label for="lectura">Lectura</label>
+        </p>
+
+        <p>
+            <label for="id_residencia">Lugar de Residencia</label>
+            <select name="residencia" id="id_residencia">
+                <option value="">Seleccione...</option>
+                <option value="mx">México</option>
+                <option value="co">Veracruz</option>
+                <option value="br">Yucatan</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reestablecer</button>
+        </p>
+        
+    
+    </form>
+
+</body>
+</html>
