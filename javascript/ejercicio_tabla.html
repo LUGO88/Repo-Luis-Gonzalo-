@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de creacion de tabla desde JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="ejercicio_tabla.css">
+</head>
+<body>
+    <h1>Tabla de datos</h1>
+    <div id="tabla">
+    </div>
+
+    <form id="formulario">
+        <input type="text" id="id" placeholder="ID" required>
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="telefono" placeholder="Telefono" required>
+        <input type="text" id="comentario" placeholder="Comentario" required>
+        <button type="button" onclick="agregarFila()">Agregar Nueva Fila </button>
+    </form>
+
+<script src="ejercicio_tabla.js" type="text/javascript"></script>    
+</body>
+</html>
