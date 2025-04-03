@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación</title>
+</head>
+<body>
+    <script src="ejercicios.js"></script>
+    <button type="button" onclick="detener()">Detener</button>
+    <p id="log"></p>
+    <script>
+        var intervalo = setTimeout(function(){
+            alert("Hola mundo");
+        }, 5000);
+
+        function detener() {
+            clearTimeout(intervalo);      
+        }
+    </script>
+</body>
+</html>
